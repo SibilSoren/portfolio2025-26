@@ -16,11 +16,11 @@ export default function Hero() {
         }}
       >
         <Particles
-          particleColors={["#ffffff", "#aaaaaa", "#777777"]}
+          particleColors={["#d87943"]}
           particleCount={200}
           particleSpread={10}
           speed={0.1}
-          particleBaseSize={100}
+          particleBaseSize={150}
           moveParticlesOnHover={false}
           alphaParticles={false}
           disableRotation={false}

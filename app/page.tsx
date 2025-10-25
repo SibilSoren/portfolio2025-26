@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Particles from "@/components/Particles";
 import { ThemeToggleButton } from "@/components/theme-toggle-btn";
 import Image from "next/image";
 

@@ -2,10 +2,30 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import { ChevronRight } from "lucide-react";
 import AnimatedContent from "./AnimatedContent";
+import Particles from "./Particles";
 
 export default function Hero() {
   return (
-    <div className="mx-auto motion-preset-fade">
+    <div className="mx-auto motion-preset-fade relative h-[90vh]">
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          position: "absolute",
+          overflow: "hidden",
+        }}
+      >
+        <Particles
+          particleColors={["#ffffff", "#aaaaaa", "#777777"]}
+          particleCount={200}
+          particleSpread={10}
+          speed={0.1}
+          particleBaseSize={100}
+          moveParticlesOnHover={false}
+          alphaParticles={false}
+          disableRotation={false}
+        />
+      </div>
       <AnimatedContent duration={1.5} delay={0.1}>
         <div id="image-section">
           <Image

@@ -56,7 +56,7 @@ export default function NavBar() {
                   asChild
                   className={navigationMenuTriggerStyle()}
                 >
-                  <Link href="/docs">About</Link>
+                  <Link href="#about">About</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
@@ -64,7 +64,7 @@ export default function NavBar() {
                   asChild
                   className={navigationMenuTriggerStyle()}
                 >
-                  <Link href="/docs">Skills</Link>
+                  <Link href="#skills">Skills</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>

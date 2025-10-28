@@ -6,7 +6,7 @@ import Particles from "./Particles";
 
 export default function Hero() {
   return (
-    <div className="mx-auto motion-preset-fade relative h-[90vh]">
+    <div className="mx-auto motion-preset-fade relative h-[80vh] mt-20">
       <div
         style={{
           width: "100%",
